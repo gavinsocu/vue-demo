@@ -1,17 +1,16 @@
 <script>
-import home from './home/home.vue'
+import trunk from './pages/trunk.vue'
 
 export default {
   components: {
-    home
+    trunk
   }
 }
 </script>
 
 <template>
   <div id="app">
-    
-    <home />
+    <trunk/>
   </div>
 </template>
 

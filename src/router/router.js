@@ -11,7 +11,7 @@ const router = createRouter({
         {
             path: "/home",
             name: "home",
-            component: () => import("../home/home.vue"),
+            component: () => import("../pages/home.vue"),
             meta: {
                 home: true,
             },
@@ -19,9 +19,25 @@ const router = createRouter({
         {
             path: "/user",
             name: "user",
-            component: () => import("../user/user.vue"),    
+            component: () => import("../pages/user.vue"),    
             meta: {
                 user: true,
+            },
+        },
+        {
+            path: "/classify",
+            name: "classify",
+            component: () => import("../pages/classify.vue"),    
+            meta: {
+                classify: true,
+            },
+        },
+        {
+            path: "/about",
+            name: "about",
+            component: () => import("../pages/about.vue"),    
+            meta: {
+                about: true,
             },
         },
     ],
