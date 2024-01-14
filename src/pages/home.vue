@@ -26,7 +26,7 @@ export default {
         return {
             count: 0,
             imgList:[
-                "./4.jpg","./2.jpg","./1.jpg","./5.jpg"
+                "./4.jpg","./22.jpg","./11.jpg","./55.jpg"
             ]
         }
     },
