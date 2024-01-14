@@ -1,6 +1,6 @@
 <template>
     <el-drawer v-model="drawer" title="I am the title" :with-header="false" direction="ltr">
-      <span>Hi there!</span>
+      <span>请你漂亮的滚蛋</span>
     </el-drawer>
   </template>
   

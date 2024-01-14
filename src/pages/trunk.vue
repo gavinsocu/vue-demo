@@ -27,20 +27,32 @@ export default {
     methods: {
         goToUser(){
             this.$router.push('/user');
-            this.isActive = 4;
         },
         goToHome(){
             this.$router.push('/home');
-            this.isActive = 1;
         },
         goToClassify(){
             this.$router.push('/classify');
-            this.isActive = 2;
         },
         goToAbout(){
             this.$router.push('/about');
-            this.isActive = 3;
         },
+    },
+    created() {
+        // 在组件创建时，监听路由变化
+        this.$router.beforeEach((to, from, next) => {
+            // 根据不同的路由来更新isActive变量
+            if (to.path === '/user') {
+                this.isActive = 4;
+            } else if (to.path === '/home') {
+                this.isActive = 1;
+            } else if (to.path === '/classify') {
+                this.isActive = 2;
+            } else if (to.path === '/about') {
+                this.isActive = 3;
+            }
+            next(); // 必须调用 next() 才能继续路由导航
+        });
     },
 }
 
@@ -54,7 +66,7 @@ export default {
 
 .footmenu{
     box-shadow: 0px -1px 1px #DCDFE6;
-    height: 20vh;
+    height: 7vh;
     width: 100vw;
     background-color: #FFF;
     display: flex;

@@ -13,6 +13,7 @@
                 :size="32"
                 class="mr-3"
                 src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
+                @click="goToUser"
             />
             </div>
         </template>
@@ -40,7 +41,10 @@ export default {
             while(this.isDraw > 2){
                 this.isDraw = 1;
             }
-        }
+        },
+        goToUser(){
+            this.$router.push('/user');
+        },
     },
 }
 </script>

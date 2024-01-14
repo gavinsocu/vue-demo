@@ -40,6 +40,14 @@ const router = createRouter({
                 about: true,
             },
         },
+        {
+            path: "/myMassage",
+            name: "myMassage",
+            component: () => import("../pages/userPages/myMassage.vue"),    
+            meta: {
+                myMassage: true,
+            },
+        },
     ],
 });
 
