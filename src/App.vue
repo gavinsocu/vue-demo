@@ -1,16 +1,16 @@
 <script>
-import trunk from './pages/trunk.vue'
+import trunk from './pages/trunk.vue';
 
 export default {
   components: {
-    trunk
-  }
-}
+    trunk,
+  },
+};
 </script>
 
 <template>
   <div id="app">
-    <trunk/>
+    <trunk />
   </div>
 </template>
 
