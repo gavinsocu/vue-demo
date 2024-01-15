@@ -8,9 +8,8 @@
             <p>关于蔡男神浏览敏感信息造成严重社会影响的通告</p>
             <div class="redyellow">
                 <p>各省、市、区、镇，各指导单位：</p>
-                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp关于蔡男神浏览<a>blog.luckylucy.live</a>现已造成严重社会影响，经组织慎重决定，现给予其表白处分</p>
+                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp关于蔡男神浏览<a href="https://blog.luckylucy.live">blog.luckylucy.live</a>现已造成严重社会影响，经组织慎重决定，现给予其表白处分</p>
             </div>
-            
         </div>
     </div>
 </template>
