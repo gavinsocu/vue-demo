@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     goToUser() {
-      this.$router.push('/user');
+      this.$router.push('/user'); 
     },
     goToHome() {
       this.$router.push('/home');
